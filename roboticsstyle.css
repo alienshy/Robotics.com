@@ -171,4 +171,150 @@ section .sectioncon .robotdivclass .robot:hover button {
   transform: scale(1.1);
   background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
   color: white;
+}
+
+section2 {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp");
+}
+section2 .section2 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section2 .section2 .section2div {
+  width: 45%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+section2 .section2 .section2div h1 {
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
+}
+section2 .section2 .section2div h2 {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+section2 .section2 .section2div p {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+section2 .section2 .section2div button {
+  height: 40px;
+  width: 30%;
+  border: none;
+  color: white;
+  transition: all 0.1s ease;
+  font-size: 12px;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+section2 .section2 .section2div button:hover {
+  transform: scale(1.1);
+  background-image: none;
+  background-color: white;
+  color: #828fff;
+  border: 1px solid #828fff;
+}
+section2 .section2 .section2img {
+  width: 50%;
+  height: 500px;
+}
+section2 .section2 .section2img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section3 {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp");
+}
+section3 .section3 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section3 .section3 .section3div {
+  width: 45%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+section3 .section3 .section3div .pp {
+  color: #828fff;
+}
+section3 .section3 .section3div h1 {
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
+}
+section3 .section3 .section3div h2 {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+section3 .section3 .section3div p {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+section3 .section3 .section3div button {
+  height: 40px;
+  width: 30%;
+  border: none;
+  color: white;
+  transition: all 0.1s ease;
+  font-size: 12px;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+section3 .section3 .section3div button:hover {
+  transform: scale(1.1);
+  background-image: none;
+  background-color: white;
+  color: #828fff;
+  border: 1px solid #828fff;
+}
+section3 .section3 .section3img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 300px;
+  position: relative;
+}
+section3 .section3 .section3img::after {
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  opacity: 0.7;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+section3 .section3 .section3img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section3 .section3 .section3img button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
 }/*# sourceMappingURL=roboticsstyle.css.map */
