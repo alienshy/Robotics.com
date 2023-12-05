@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  padding: 0 32px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  position: fixed;
+}
+nav .naw {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .naw .navimg {
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+nav .naw .navlink {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .naw .navlink ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav .naw .navlink ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  color: white;
+}
+
+header {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp");
+}
+header .head {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .head .headdiv {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+header .head .headdiv h1 {
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+header .head .headdiv h2 {
+  font-size: 15px;
+  color: white;
+}
+header .head .headdiv button {
+  height: 50px;
+  width: 30%;
+  border: none;
+  transition: all 0.5s ease;
+}
+header .head .headdiv button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+header .head .headimg {
+  width: 40%;
+  height: 400px;
+}
+
+section {
+  width: 100%;
+  height: 700px;
+}
+section .sectioncon {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+section .sectioncon .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  gap: 10px;
+}
+section .sectioncon .text h1 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+section .sectioncon .text p {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+section .sectioncon .robotdivclass {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+section .sectioncon .robotdivclass .robot {
+  width: 25%;
+  gap: 20px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+section .sectioncon .robotdivclass .robot h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+}
+section .sectioncon .robotdivclass .robot p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #777777;
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+}
+section .sectioncon .robotdivclass .robot button {
+  height: 40px;
+  width: 40%;
+  border: none;
+  transition: all 0.1s ease;
+  font-size: 12px;
+}
+section .sectioncon .robotdivclass .robot:hover button {
+  transform: scale(1.1);
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  color: white;
+}/*# sourceMappingURL=roboticsstyle.css.map */
