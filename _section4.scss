@@ -1,20 +1,46 @@
-.as{
+.as {
     width: 100%;
     height: 700px;
     background-image: url('https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp');
-    .section4{
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    div{
-        width: 23%;
-        border-radius: 20px;
-        height: 200px;
-        background-color: red   ;
-    }
+
+    .section4 {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .section4text {
+            width: 100%;
+            height: 100px;
+            background-color: transparent;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+
+            h1 {
+                font-size: 40px;
+                color: white;
+            }
+
+            p {
+                color: #ffffff;
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.625em;
+            }
+        }
+
+        div {
+            width: 30%;
+            border-radius: 20px;
+            height: 200px;
+            background-color: white;
+        }
 
     }
 }

@@ -10,6 +10,10 @@
   max-width: 1200px;
 }
 
+ul {
+  list-style: none;
+}
+
 nav {
   width: 100%;
   height: 70px;
@@ -332,11 +336,32 @@ section3 .section3 .section3img button {
   justify-content: space-between;
   align-items: center;
 }
+.as .section4 .section4text {
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.as .section4 .section4text h1 {
+  font-size: 40px;
+  color: white;
+}
+.as .section4 .section4text p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
 .as .section4 div {
-  width: 23%;
+  width: 30%;
   border-radius: 20px;
   height: 200px;
-  background-color: red;
+  background-color: white;
 }
 
 .section5s {
@@ -347,17 +372,243 @@ section3 .section3 .section3img button {
   width: 100%;
   height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .section5s .section5 div {
-  width: 17%;
-  border: 2px dashed black;
-  height: 150px;
-}
-.section5s .section5 div img {
-  width: 100%;
+  width: 19%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.section5s .section5 div img {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section6s {
+  width: 100%;
+  height: 700px;
+}
+.section6s .section6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section6s .section6 .sec6text {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.section6s .section6 .sec6text h1 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+.section6s .section6 .sec6text p {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+.section6s .section6 .sec6img {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section6s .section6 .sec6img h2 {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+.section6s .section6 .sec6img p {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.625em;
+  width: 90%;
+}
+.section6s .section6 .sec6img .date {
+  color: black;
+  font-size: 13px;
+  cursor: pointer;
+}
+.section6s .section6 .sec6img .buttoni {
+  display: flex;
+  gap: 10px;
+}
+.section6s .section6 .sec6img .buttoni button {
+  height: 40px;
+  width: 15%;
+  border: none;
+  color: white;
+  transition: all 0.1s ease;
+  font-size: 12px;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+.section6s .section6 .sec6img .buttoni button:hover {
+  transform: scale(1.1);
+  background-image: none;
+  background-color: white;
+  color: #828fff;
+  border: 1px solid #828fff;
+}
+
+footer {
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg.webp");
+  width: 100%;
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+footer .footer1 .footeres {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  flex-wrap: wrap;
+}
+footer .footer1 .footeres .footeralt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  font-weight: 100;
+}
+footer .footer1 .footeres .footeralt h3 {
+  font-size: 20px;
+}
+footer .footer1 .footeres .footeralt ul {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+footer .footer1 .footeres .footeralt2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  font-weight: 100;
+}
+footer .footer1 .footeres .footeralt2 h2 {
+  font-size: 20px;
+}
+footer .footer1 .footeres .footeralt2 .input {
+  display: flex;
+  gap: 10px;
+}
+footer .footer1 .footeres .footeralt2 .input input {
+  border-radius: 25px;
+  padding: 15px 90px 15px 15px;
+  outline: none;
+  transition: all 1s ease;
+  border: none;
+  background-color: #f8f8f8;
+}
+footer .footer1 .footeres .footeralt2 .input input:focus {
+  border: 2px solid;
+}
+footer .footer1 .footeres .footeralt2 .input button {
+  width: 40%;
+  color: #f8f8f8;
+  padding: 13px 25px;
+  border: none;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+footer .footer1 .footeres .footeralt2 .input button:hover {
+  background: white;
+  color: #222;
+}
+footer .footer1 .footeres .footeralt3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+footer .footer1 .footeres .footeralt3 .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+footer .footer1 .footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .footer1 .footer2 a {
+  font-size: 15px;
+  color: white;
+  width: 50%;
+}
+footer .footer1 .footer2 span,
+footer .footer1 .footer2 i {
+  color: #828fff;
+}
+footer .footer1 .footer2 .iconf {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  width: 45%;
+  gap: 20px;
+}
+footer .footer1 .footer2 .iconf i {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+}
+footer .footer1 .footer2 .iconf i:hover {
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+
+@media screen and (max-width: 991px) {
+  footer .footeres .footeralt1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  footer .footeres .footeralt1 .input {
+    width: 100%;
+    flex-direction: column;
+  }
+  footer .footeres .footeralt2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }/*# sourceMappingURL=roboticsstyle.css.map */
