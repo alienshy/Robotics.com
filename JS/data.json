@@ -1,0 +1,28 @@
+{
+    "robots": [
+        {
+            "id": 1,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p1.png",
+            "category": "Minitron",
+            "description": "Salam minitron robotum budur"
+        },
+        {
+            "id": 2,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p2.png",
+            "category": "sugurson",
+            "description": "Salam sugurson robotum budur"
+        },
+        {
+            "id": 3,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p3.png",
+            "category": "vision",
+            "description": "Salam vision robotum budur"
+        },
+        {
+            "id": 4,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p4.png",
+            "category": "mahsuson",
+            "description": "Salam mahsuson robotum budur"
+        }
+    ]
+}

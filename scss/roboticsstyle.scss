@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    padding: 0 32px;
+    margin: auto;
+    max-width: 1200px;
+}
+ul{
+    list-style: none;
+}
+@import '../SCSS/nav';
+@import '../SCSS/header';
+@import '../SCSS/section';
+@import '../SCSS/section2';
+@import '../SCSS/section3';
+@import '../SCSS/section4';
+@import '../SCSS/section5';
+@import '../SCSS/section6';
+@import '../SCSS/footer';

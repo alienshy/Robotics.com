@@ -170,6 +170,7 @@ section .sectioncon .robotdivclass .robot button {
   border: none;
   transition: all 0.1s ease;
   font-size: 12px;
+  cursor: pointer;
 }
 section .sectioncon .robotdivclass .robot:hover button {
   transform: scale(1.1);
@@ -479,6 +480,7 @@ footer {
   background-image: url("https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg.webp");
   width: 100%;
   padding: 150px 0;
+  margin-top: 100px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -513,7 +515,9 @@ footer .footer1 .footeres .footeralt ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+}
+footer .footer1 .footeres .footeralt ul li {
+  gap: 40px;
 }
 footer .footer1 .footeres .footeralt2 {
   display: flex;
@@ -523,7 +527,7 @@ footer .footer1 .footeres .footeralt2 {
   font-weight: 100;
 }
 footer .footer1 .footeres .footeralt2 h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 footer .footer1 .footeres .footeralt2 .input {
   display: flex;
@@ -548,6 +552,7 @@ footer .footer1 .footeres .footeralt2 .input button {
   font-weight: 600;
   border-radius: 25px;
   transition: all 0.5s ease;
+  cursor: pointer;
   background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
 }
 footer .footer1 .footeres .footeralt2 .input button:hover {
@@ -560,10 +565,20 @@ footer .footer1 .footeres .footeralt3 {
   align-items: flex-start;
   gap: 20px;
 }
+footer .footer1 .footeres .footeralt3 h3 {
+  font-size: 30px;
+}
 footer .footer1 .footeres .footeralt3 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  transition: 1s;
+}
+footer .footer1 .footeres .footeralt3 .grid img {
+  cursor: pointer;
+}
+footer .footer1 .footeres .footeralt3 .grid img:hover {
+  transform: scale(1.1);
 }
 footer .footer1 .footer2 {
   display: flex;
@@ -581,10 +596,12 @@ footer .footer1 .footer2 i {
   color: #828fff;
 }
 footer .footer1 .footer2 .iconf {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  font-size: 15px;
+  font-size: 30px;
+  background-color: none;
   width: 45%;
   gap: 20px;
 }

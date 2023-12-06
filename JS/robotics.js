@@ -1,4 +1,6 @@
-fetch('http://localhost:3000/robots') // API'den veri çekme isteği
+const robotName = new URLSearchParams(window.location.search).get('id')
+console.log(robotName);
+fetch('http://localhost:3000/robots')
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -8,7 +10,8 @@ fetch('http://localhost:3000/robots') // API'den veri çekme isteği
                     <img src="${robot.img}" alt="">
                     <h1>${robot.name}</h1>
                     <p>${robot.description}</p>
-                    <button>DETAYLARA BAK</button>
+                    <a href="../HTML/dts.html?id=${robot.id}"><button>View details</button></a
+                    >
                 </div>
             `;
         });

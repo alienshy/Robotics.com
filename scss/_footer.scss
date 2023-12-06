@@ -2,17 +2,16 @@ footer {
     background-image: url('https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg.webp');
     width: 100%;
     padding: 150px 0;
+    margin-top: 100px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     .footer1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 40px;
-
         .footeres {
             display: flex;
             align-items: center;
@@ -20,29 +19,26 @@ footer {
             width: 100%;
             color: white;
             flex-wrap: wrap;
-
             .footeralt {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 20px;
                 font-weight: 100;
-
                 h3 {
 
                     font-size: 20px;
                 }
-
                 ul {
                     font-size: 16px;
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
-                    gap: 10px;
-
+                    li{
+                        gap: 40px;
+                    }
                 }
             }
-
             .footeralt2 {
                 display: flex;
                 flex-direction: column;
@@ -52,7 +48,7 @@ footer {
 
                 h2 {
 
-                    font-size: 20px;
+                    font-size: 30px;
                 }
 
                 .input {
@@ -80,6 +76,7 @@ footer {
                         font-weight: 600;
                         border-radius: 25px;
                         transition: all 0.5s ease;
+                        cursor: pointer;
                         background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
 
                         &:hover {
@@ -95,11 +92,21 @@ footer {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 20px;
+                h3{
+                    font-size: 30px;
+                }
 
                 .grid {
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
                     gap: 10px;
+                    transition: 1s;
+                    img{
+                        cursor: pointer;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
                 }
             }
 
@@ -123,10 +130,12 @@ footer {
             }
 
             .iconf {
+                cursor: pointer;
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
-                font-size: 15px;
+                font-size: 30px;
+                background-color: none;
                 width: 45%;
                 gap: 20px;
 
