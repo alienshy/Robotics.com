@@ -42,3 +42,40 @@ header{
         }
     }
 }
+@media only screen and (max-width: 768px) {
+    header{
+        .head{
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            .headdiv{
+                width: 100%;
+                height: 500px;
+                h1{
+                    font-size: 40px;
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    color: white;
+                }
+                h2{
+                    font-size: 15px;
+                    color: white;
+                }
+                button{
+                    height: 30px;
+                    width: 20%;
+                    border-radius: 20px;
+                    font-size: 12px;
+                    color: rgb(179, 176, 176);
+                    &:hover{
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+            .headimg{
+                width: 100%;
+                height: 500px;
+            }
+        }
+    }
+}

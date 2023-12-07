@@ -54,6 +54,11 @@ nav .naw .navlink ul li a {
   color: white;
 }
 
+@media only screen and (max-width: 768px) {
+  nav .naw .navlink {
+    display: none;
+  }
+}
 header {
   width: 100%;
   background-image: url("https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp");
@@ -98,17 +103,46 @@ header .head .headimg {
   height: 400px;
 }
 
+@media only screen and (max-width: 768px) {
+  header .head {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  header .head .headdiv {
+    width: 100%;
+    height: 500px;
+  }
+  header .head .headdiv h1 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+  }
+  header .head .headdiv h2 {
+    font-size: 15px;
+    color: white;
+  }
+  header .head .headdiv button {
+    height: 30px;
+    width: 20%;
+    border-radius: 20px;
+    font-size: 12px;
+    color: rgb(179, 176, 176);
+  }
+  header .head .headdiv button:hover {
+    color: rgb(255, 255, 255);
+  }
+  header .head .headimg {
+    width: 100%;
+    height: 500px;
+  }
+}
 section {
   width: 100%;
-  height: 700px;
 }
 section .sectioncon {
   width: 100%;
-  height: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 section .sectioncon .text {
   display: flex;
@@ -116,7 +150,6 @@ section .sectioncon .text {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 100px;
   gap: 10px;
 }
 section .sectioncon .text h1 {
@@ -135,15 +168,29 @@ section .sectioncon .text p {
   font-weight: 300;
   line-height: 1.625em;
 }
+section .sectioncon .loadmore {
+  height: 40px;
+  width: 15%;
+  border: none;
+  transition: all 0.1s ease;
+  font-size: 12px;
+  cursor: pointer;
+}
+section .sectioncon .loadmore:hover {
+  transform: scale(1.1);
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  color: white;
+}
 section .sectioncon .robotdivclass {
   display: flex;
   width: 100%;
-  height: 400px;
+  min-height: 600px;
+  flex-wrap: wrap;
 }
 section .sectioncon .robotdivclass .robot {
   width: 25%;
   gap: 20px;
-  height: 400px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,18 +211,83 @@ section .sectioncon .robotdivclass .robot p {
   font-size: 14px;
   width: 80%;
 }
-section .sectioncon .robotdivclass .robot button {
+section .sectioncon .robotdivclass .robot .nam {
+  width: 70%;
   height: 40px;
-  width: 40%;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+section .sectioncon .robotdivclass .robot .nam button {
+  height: 40px;
+  width: 70%;
   border: none;
   transition: all 0.1s ease;
   font-size: 12px;
   cursor: pointer;
 }
-section .sectioncon .robotdivclass .robot:hover button {
+section .sectioncon .robotdivclass .robot .nam button:hover {
   transform: scale(1.1);
   background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
   color: white;
+}
+section .sectioncon .robotdivclass .robot button {
+  height: 40px;
+  width: 50%;
+  border: none;
+  transition: all 0.1s ease;
+  font-size: 12px;
+  cursor: pointer;
+}
+section .sectioncon .robotdivclass .robot button:hover {
+  transform: scale(1.1);
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  section section {
+    width: 100%;
+    min-height: 1500px;
+  }
+  section section .sectioncon {
+    width: 100%;
+    min-height: 1500px;
+    flex-direction: column;
+  }
+  section section .sectioncon .text {
+    min-height: 200px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+  }
+  section section .sectioncon .text h1 {
+    text-align: center;
+    font-size: 29px;
+  }
+  section section .sectioncon .robotdivclass {
+    width: 100%;
+    min-height: 1000px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  section section .sectioncon .robotdivclass .robot {
+    width: 100%;
+    min-height: 200px;
+  }
+  section section .sectioncon .robotdivclass .robot .nam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section section .sectioncon .robotdivclass .robot .nam button {
+    width: 30%;
+  }
+  section section .sectioncon .robotdivclass .robot .nam button:hover {
+    transform: scale(1.1);
+    background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    color: white;
+  }
 }
 
 section2 {
@@ -240,6 +352,32 @@ section2 .section2 .section2img img {
      object-fit: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  section2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  section2 .section2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 20px;
+  }
+  section2 .section2 .section2div {
+    width: 100%;
+    height: 400px;
+    gap: 30px;
+  }
+  section2 .section2 .section2img {
+    width: 100%;
+    height: 500px;
+  }
+}
 section3 {
   width: 100%;
   background-image: url("https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp");
@@ -324,6 +462,32 @@ section3 .section3 .section3img button {
   border: none;
 }
 
+@media only screen and (max-width: 768px) {
+  section3 .section3 {
+    height: 850px;
+    flex-direction: column;
+    padding: 140px 20px;
+    gap: 50px;
+  }
+  section3 .section3 .section3div {
+    width: 100%;
+  }
+  section3 .section3 .section3div .pp {
+    color: #828fff;
+  }
+  section3 .section3 .section3div h1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(0, 0, 0);
+  }
+  section3 .section3 .section3div h2 {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+  }
+  section3 .section3 .section3img {
+    width: 100%;
+  }
+}
 .as {
   width: 100%;
   height: 700px;

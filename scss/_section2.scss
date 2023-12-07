@@ -68,3 +68,31 @@ section2 {
         }
     }
 }
+@media only screen and (max-width: 768px) {
+    section2 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        .section2 {
+            width: 100%;
+            height: 700px;            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 100px 20px;
+    
+            .section2div {
+                width: 100%;
+                height: 400px;;
+                gap: 30px;
+            }
+    
+            .section2img {
+                width: 100%;
+                height: 500px;
+
+            }
+        }
+    }
+  }

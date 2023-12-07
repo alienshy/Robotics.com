@@ -88,3 +88,33 @@ section3 {
         }
     }
 }
+@media only screen and (max-width: 768px) {
+    section3 {
+        .section3 {
+            height: 850px;
+            flex-direction: column;
+            padding: 140px 20px;
+            gap: 50px;
+            .section3div {
+                width: 100%;
+                .pp{
+                    color:  #828fff;
+                }
+                h1 {
+                    font-size: 45px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    color: rgb(0, 0, 0);
+                }
+    
+                h2 {
+                    font-size: 15px;
+                    color: rgb(0, 0, 0);
+                }
+            }
+            .section3img {
+                width: 100%;
+
+            }
+        }
+    }
+}

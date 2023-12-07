@@ -1,22 +1,13 @@
 section {
   width: 100%;
-  height: 700px;
-
   .sectioncon {
     width: 100%;
-    height: 700px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
     .text {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       width: 100%;
-      height: 100px;
       gap: 10px;
 
       h1 {
@@ -37,51 +28,134 @@ section {
         line-height: 1.625em;
       }
     }
-    .robotdivclass{
+    .loadmore{
+      height: 40px;
+      width: 15%;
+      border: none;
+      transition: all 0.1s ease;
+      font-size: 12px;
+      cursor: pointer;
+      &:hover{
+      transform: scale(1.1);
+      background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+      color: white;
+    }
+    }
+
+    .robotdivclass {
       display: flex;
       width: 100%;
-      height: 400px;
-    .robot {
-      width: 25%;
-      gap: 20px;
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+      min-height: 600px;
+      flex-wrap: wrap;
+      .robot {
+        width: 25%;
+        gap: 20px;
+        min-height:400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
 
-      h1 {
-        font-family: "Poppins", sans-serif;
-        font-size: 19px;
+        h1 {
+          font-family: "Poppins", sans-serif;
+          font-size: 19px;
+        }
+
+        p {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          color: #777777;
+          text-align: center;
+          font-size: 14px;
+          width: 80%;
+        }
+
+        .nam {
+          width: 70%;
+          height: 40px;
+          text-decoration: none;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+        
+
+        button {
+          height: 40px;
+          width: 70%;
+          border: none;
+          transition: all 0.1s ease;
+          font-size: 12px;
+          cursor: pointer;
+          &:hover{
+          transform: scale(1.1);
+          background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+          color: white;
+        }
+        }}
+        button {
+          height: 40px;
+          width: 50%;
+          border: none;
+          transition: all 0.1s ease;
+          font-size: 12px;
+          cursor: pointer;
+          &:hover{
+          transform: scale(1.1);
+          background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+          color: white;
+        }
       }
-
-      p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        color: #777777;
-        text-align: center;
-        font-size: 14px;
-        width: 80%;
-      }
-
-      button {
-        height: 40px;
-        width: 40%;
-        border: none;
-        transition: all 0.1s ease;
-        font-size: 12px;
-        cursor: pointer;
-      }
-
-      &:hover button {
-        transform: scale(1.1);
-        background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
-        color: white;
-
-      }
-    }}
+      
+    }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  section {
+    width: 100%;
+    min-height: 1500px;
+    .sectioncon {
+      width: 100%;
+      min-height: 1500px;
+      flex-direction: column;
+      .text {
+        min-height: 200px;
+        margin-top: -100px;
+        margin-bottom: 30px;
+        h1 {
+          text-align: center;
+          font-size: 29px;
+
+        }
+      }
+
+      .robotdivclass {
+        width: 100%;
+        min-height: 1000px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 20px;
+        .robot {
+          width: 100%;
+          min-height: 200px;
+          .nam {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button {
+              width: 30%;
+              &:hover {
+                transform: scale(1.1);
+                background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}}

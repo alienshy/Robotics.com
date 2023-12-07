@@ -23,6 +23,30 @@
             "image": "https://preview.colorlib.com/theme/robotics/img/p4.png",
             "category": "mahsuson",
             "description": "Salam mahsuson robotum budur"
+        },
+        {
+            "id": 5,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p3.png",
+            "category": "vision",
+            "description": "Salam vision robotum budur"
+        },
+        {
+            "id": 6,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p4.png",
+            "category": "mahsuson",
+            "description": "Salam mahsuson robotum budur"
+        },
+        {
+            "id": 6,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p4.png",
+            "category": "mahsuson",
+            "description": "Salam mahsuson robotum budur"
+        },
+        {
+            "id": 6,
+            "image": "https://preview.colorlib.com/theme/robotics/img/p4.png",
+            "category": "mahsuson",
+            "description": "Salam mahsuson robotum budur"
         }
     ]
 }
